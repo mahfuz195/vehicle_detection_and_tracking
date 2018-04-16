@@ -121,5 +121,4 @@ Here's an example result showing the heatmap from a series of frames of video, t
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
-
+During the implementation the there are few false positiving results generated and those were able to be removed by heatbox. Overall ther output is able to track down the vehcile properly. In the video SVM might fail if the dataset is not trained properly. Another approach is to use YOLO algorithm to detect in a more fast and reliable way. SVM is much slower comapred to YOLO and other CNN approaches. I would like to build the next model with YOLO algorithm. 
